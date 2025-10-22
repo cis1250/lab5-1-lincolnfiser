@@ -1,20 +1,29 @@
 #!/usr/bin/env python3
+def get_terms():
+    
 while True:
     user_input = input("Enter the number of terms: ")
+    num = int(user_input)
+    if num > 0
+      return num
+    print("Please enter a positive integer.")
     
     # Step 2: Validate input
-    if int(user_input) > 0:
-        terms = int(user_input)
-        break
-    else:
-        print("Please enter a positive integer.")
+    def fibonacci(n):
+    a = 0
+    b = 1
+    for i in range(n):
+        print(a)
+        temp = a + b
+        a = b
+        b = temp
 
-# Step 3: Calculate and print Fibonacci sequence
-a, b = 0, 1
-for i in range(terms):
-    print(a)
-    a, b = b, a + b
+def main():
+    terms = get_terms()
+    print("Fibonacci sequence:")
+    fibonacci(terms)
 
-print()
+# Run the program
+main()
 # Fibonacci Sequence Exercise with functions
 # TODO: (Read detailed instructions in the Readme file)
